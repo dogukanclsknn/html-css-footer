@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    background-color: antiquewhite;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+ul{
+    list-style:none;
+}
+li{
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.footer-column:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+}
+.footer-column:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 15%;
+    margin-bottom: 58px;
+    justify-content: space-evenly;    
+}
+.footer-column:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 15%;
+    margin-top: 30px;
+    justify-content: space-evenly;    
+}
+.footer-column:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 15%;
+    margin-top: 10px;
+    justify-content: space-evenly;    
+}
+.footer-column:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 15%;
+}
+.footer-column:nth-child(5) ul{
+    margin-bottom: 45px;
+}
+#media{
+    font-weight: 400;
+    margin-top: 45px;
+    margin-left: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#technology{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#legal{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+.something{
+    margin-bottom: 25px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+}
+.contact{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.address{
+    color: gray;
+}
+.email{
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 7px 20px 7px 20px;
+    color: black;
+    background-color: lightgray;
+    border-style: none;
+    cursor: pointer;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+}
+#footerBottomLeft{
+    margin-right: 100px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#footerBottomRight{
+    margin-right: 100px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
